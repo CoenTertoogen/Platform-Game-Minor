@@ -25,7 +25,7 @@ const keys = {};
 const lavaHeight = 85; // Height of the lava image
 
 function preload() {
-  // Load the water texture
+  // Load the lava texture
   floorImage = loadImage('lava3.png'); // Ensure the correct path
   backgroundImage = loadImage('gamebackground2.png');
   characterSprite = loadImage('avatar.png');
